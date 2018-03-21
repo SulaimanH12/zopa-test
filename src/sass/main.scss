@@ -65,12 +65,12 @@
 }
 
 // New design
-.container {
+#new-design-section .container {
     display: flex;
     justify-content: space-between;
 }
 
-.design-caption {
+.h4-caption {
     color: #ff6d6d;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -79,17 +79,17 @@
 .design-subheading {
     font-size: 34px;
     width: 38%;
-    .design-ellipsis {
-        color: #ff6d6d;
-    }
+}
+.ellipsis {
+    color: #ff6d6d;
 }
 .design-title-container {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 25px 0;
 }
 .design-text-container {
     color: #717171;
     font-size: 20px;
-    width: 45%;
+    width: 54%;
     font-weight: 600;
     line-height: 1.7;
     p {
@@ -97,7 +97,7 @@
     }
 }
 
-.cont {
+.design-content-holder {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -162,4 +162,53 @@
         margin: 0 auto;
         font-size: 17px;
     }
+}
+
+// Responsive section 
+#responsive .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideline-2 {
+    width: 70%;
+    position: relative;
+    img {
+        height: auto;
+        width: 50%;
+    }
+}
+
+.macbook {
+    z-index: 1;
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
+.triangle {
+    transform: scaleX(-1);
+}
+
+.responsive-title-container {
+    padding: 3em 0;
+}
+
+.responsive-subheading {
+    font-size: 34px;
+    width: 75%;
+}
+
+.responsive-content-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-text-container {
+    color: #717171;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7;
+    width: 95%;
 }
