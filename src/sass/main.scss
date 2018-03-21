@@ -174,7 +174,6 @@
     width: 60%;
     position: relative;
     img {
-        height: auto;
         width: 70%;
     }
 }
@@ -212,4 +211,11 @@
     font-weight: 600;
     line-height: 1.7;
     width: 80%;
+}
+
+// Testimonials
+#testimonials {
+    background: url(../img/section5-background.jpg) no-repeat;
+    display: block;
+    background-size: cover; 
 }
