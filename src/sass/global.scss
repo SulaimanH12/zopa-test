@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: "Source Sans Pro", sans-serif;
     overflow-x: hidden;
     line-height: 1.6;
+    height: 100%;
 }

@@ -115,7 +115,8 @@
     background: url(../img/section3-photoBackground.jpg) no-repeat;
     display: block;
     background-size: cover;
-    background-position-y: 19%;
+    background-position-y: 35%;
+    min-height: 870px;
     .container {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
@@ -159,5 +160,6 @@
     p {
         width: 50%;
         margin: 0 auto;
+        font-size: 17px;
     }
 }
