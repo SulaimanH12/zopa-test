@@ -271,3 +271,38 @@ small {
     text-align: center;
     padding-bottom: 5em;
 }
+
+// Showcase section
+#showcase {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.showcase-content-container {
+    padding: 4em 0;
+}
+
+.mac-browser {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.showcase-subheading {
+    font-size: 34px;
+    letter-spacing: 1px;
+    padding: .5em;
+}
+
+.showcase-text {
+    color: #717171;
+    font-size: 20px;
+    width: 30%;
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
