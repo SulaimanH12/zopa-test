@@ -311,16 +311,19 @@
 #trial {
     background-color: #323969;
     text-align: center;
-    h3, span {
+    h3 {
         color: white;
     }
     small {
         font-size: 18px;
     }
-    span {
-        font-size: 18px;
-        font-weight: 600;
-    }
+
+}
+
+.days-trial {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
 }
 
 .trial-title-container {
@@ -359,4 +362,18 @@ input {
 
 ::placeholder {
     color: white;
+}
+
+.terms-services {
+    padding: 3em 0;
+    color: #717171;
+}
+
+#terms {
+    text-decoration: none;
+    color: #717171;
+    border-bottom: 1px solid #717171;
+    &:hover {
+        color: white;
+    }
 }
