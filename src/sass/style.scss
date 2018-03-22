@@ -308,3 +308,37 @@
 }
 
 // Trial
+#trial {
+    background-color: #404a85;
+    text-align: center;
+    h3, span {
+        color: white;
+    }
+    small {
+        font-size: 18px;
+    }
+}
+
+.trial-title-container {
+    padding: 4em 0;
+}
+
+.trial-subheading {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.trial-button {
+    background-color: #ff6d6d;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 2px;
+    border: 0;
+    letter-spacing: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.92;
+    }
+}
