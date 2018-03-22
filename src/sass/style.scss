@@ -217,5 +217,14 @@
 #testimonials {
     background: url(../img/section5-background.jpg) no-repeat;
     display: block;
-    background-size: cover; 
+    background-size: cover;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
