@@ -456,6 +456,9 @@
     border-radius: 2px;
     position: absolute;
     left: 76.2%;
+    &:hover {
+        opacity: 0.8;
+    }
     cursor: pointer;
     img {
         width: 23px;
