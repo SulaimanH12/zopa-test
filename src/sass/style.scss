@@ -350,7 +350,7 @@
     }
 }
 
-input {
+.trial-btn {
     border: 1px solid white;
     font-size: 18px;
     background-color: #474d78;
@@ -419,6 +419,8 @@ input {
             color: #717171;
             border-radius: 3px;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            padding: .8em;
         }
     }
 }
@@ -441,4 +443,20 @@ input {
 .icon {
     padding: 0 17px;
     cursor: pointer;
+}
+
+.submit-button {
+    height: 52px;
+    width: 51px;
+    background-color: #ff6d6d;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    left: 76.2%;
+    cursor: pointer;
+    img {
+        width: 23px;
+        height: 23px;
+        cursor: pointer;
+    }
 }
