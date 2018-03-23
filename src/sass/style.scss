@@ -438,6 +438,9 @@
 .footer-triangle {
     transform: rotate(270deg);
     width: 100%;
+    position: absolute;
+    top: -20px;
+    right: -28px;
 }
 
 .icon {
@@ -459,4 +462,8 @@
         height: 23px;
         cursor: pointer;
     }
+}
+
+.triangle-container {
+    position: relative;
 }
